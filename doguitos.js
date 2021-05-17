@@ -69,4 +69,17 @@ dogs = [
         
 
     }
+     function soma() {
+        var n1 = Number.parseFloat(window.prompt("digite um numero!"))
+        var n2 = Number.parseFloat(window.prompt("digite outro numero para ser somado"))
+        var soma = n1 + n2
+        window.alert(`opa, o resultado da sua soma é ${soma}`)
 
+     }
+     function vezes() {
+        var n1 = Number.parseFloat(window.prompt("digite um numero!"))
+        var n2 = Number.parseFloat(window.prompt("digite outro numero para ser multiplicado"))
+        var soma = n1 * n2
+        window.alert(`opa, o resultado da sua multiplicação é ${soma}`)
+
+     }
