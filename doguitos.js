@@ -94,5 +94,34 @@ dogs = [
         window.alert(`opa, o resultado da sua multiplicação é ${soma}`)
 
      }
+     function alek(){
+
+        var audio = new Audio('Ibageins/alekO.mp3');
+        audio.addEventListener('canplaythrough', function() {
+          audio.play();
+        })
+        document.body.style.backgroundImage = "url('Ibageins/alek.gif')"
+        document.getElementsByClassName("site")[0].innerHTML= "AQUI AMAMOS O ALEK"
+        document.getElementById("dog1").getElementsByClassName("sammy")[0].innerHTML= "alek"
+        document.getElementById("dog2").getElementsByClassName("dragao")[0].innerHTML= "alek"
+        document.getElementById("dog3").getElementsByClassName("milton")[0].innerHTML= "alek"
+        document.getElementById("dog4").getElementsByClassName("penny")[0].innerHTML= "alek"
+        document.getElementById("dog5").getElementsByClassName("nenem")[0].innerHTML= "alek"
+        document.getElementById("dog1").getElementsByClassName("imagem1")[0].src = "Ibageins/alek5.gif"
+        document.getElementById("dog2").getElementsByClassName("imagem2")[0].src = "Ibageins/alek2.gif"
+        document.getElementById("dog3").getElementsByClassName("imagem3")[0].src = "Ibageins/alek3.gif"
+        document.getElementById("dog4").getElementsByClassName("imagem4")[0].src = "Ibageins/alek4.gif"
+        document.getElementById("dog5").getElementsByClassName("imagem5")[0].src = "Ibageins/alek1.gif"
+        document.getElementsByTagName("h2")[0].style.color = "blue"
+        document.getElementsByTagName("h2")[1].style.color = "purple"
+        document.getElementsByTagName("h2")[2].style.color = "yellow"
+        document.getElementsByTagName("h2")[3].style.color = "black"
+        document.getElementsByTagName("h2")[4].style.color = "brown"
+        document.getElementsByTagName("h2")[5].style.color = "white"
+        
+        
+       document.alert(`aumenta o volume!!!!    ヽ(^。^)丿   `)
+        
+      }
 
      

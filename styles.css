@@ -44,6 +44,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 #dog5{
@@ -87,6 +88,19 @@ div#botauns{
     align-items: stretch;
     
  
+}
+input#btnVITAS{
+    background-color: rgb(168, 1, 132);
+    color: aliceblue;
+ 
+}
+input#btnALEK{
+    background-color: green;
+    color: aliceblue;
+ 
+}
+input#btn{
+    background-color: rgb(9, 119, 216);
 }
 
 
