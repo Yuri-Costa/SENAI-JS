@@ -84,8 +84,8 @@ body{
 div#botauns{
     display: flex;
     flex-direction: column;
-    width: 50%;
-    padding-left: 480px;
+    align-items: stretch;
+    
  
 }
 
