@@ -52,7 +52,11 @@ dogs = [
     }
 
     function mudaTudo(){
-        
+      
+      var audio = new Audio('Ibageins/vitasforro.mp3');
+      audio.addEventListener('canplaythrough', function() {
+        audio.play();
+      })
         document.body.style.backgroundImage = "url('Ibageins/vitasg.gif')"
         document.getElementsByClassName("site")[0].innerHTML= "SITE DO VITAS"
         document.getElementById("dog1").getElementsByClassName("sammy")[0].innerHTML= "vitas"
